@@ -1,0 +1,45 @@
+{
+  "name": "dbagent",
+  "version": "1.0.0",
+  "description": "Agent to fetch information from a database",
+  "main": "index.js",
+  "bin": {
+    "dbagent": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start:api": "tsx src/api/index.ts",
+    "cli": "tsx src/cli/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpjitendrapal/dbagent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jpjitendrapal/dbagent/issues"
+  },
+  "homepage": "https://github.com/jpjitendrapal/dbagent#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.27",
+    "@langchain/core": "^1.1.44",
+    "@langchain/google-genai": "^2.1.30",
+    "@types/express": "^5.0.6",
+    "commander": "^14.0.3",
+    "csv-stringify": "^6.7.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "hnswlib-node": "^3.0.0",
+    "mysql2": "^3.22.3"
+  }
+}
