@@ -110,5 +110,8 @@ dbagent/
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/jpjitendrapal/dbagent/issues). If you want to add support for PostgreSQL, MongoDB, or other LLMs (like OpenAI), PRs are heavily encouraged.
 
+## 📚 Acknowledgments
+- The sample database used during development and testing is the **MySQL Classic Models Database**, which can be found here: [MySQL Sample Database Setup](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/).
+
 ## 📝 License
 This project is licensed under the **ISC License**.
