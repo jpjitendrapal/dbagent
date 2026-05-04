@@ -5,3 +5,5 @@ package-lock.json
 pnpm-lock.yaml
 yarn.lock
 .env
+vector_store/*
+.agent/*
